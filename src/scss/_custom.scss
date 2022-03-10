@@ -1,0 +1,37 @@
+// my themes colors
+$yellow:  #ffc107;
+$yellow-light:  #f3d67f;
+$yellow-dark:  #a07e19;
+$light-blue:    #10b5ec;
+
+
+//WHITE GRAY AND BLACK COLORS
+
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+
+
+$primary:       $yellow;
+$primary-1:       $yellow-light ;
+$primary-2:       $yellow-dark;
+$secondary:     $light-blue;
+
+/*Navbar Section*************/
+
+// ACCORDION
+
+
+
+
+
+// IMPORT BOOTSTRAP 5
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";

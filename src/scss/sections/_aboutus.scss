@@ -1,0 +1,6 @@
+@use "../custom" as *;
+
+.over-shadow:hover {
+    box-shadow: 0 .5rem 1rem rgba($black, .15);
+    background-color: #f8f8f8;
+}

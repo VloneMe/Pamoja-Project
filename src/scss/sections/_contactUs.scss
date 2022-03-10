@@ -1,0 +1,67 @@
+@use '../../scss/custom' as *;
+
+.contactUs {
+    background-color: #e5e5e5;
+
+    .socialIcons {
+        justify-content: center;
+        
+        
+        .icon {
+            border: 1px solid $black;
+            border-radius: 12px;
+            background-color: $white;
+            text-align: center;
+            padding: 3px;
+
+            &:hover {
+                background-color: $black;
+                color: $white;
+            }
+            
+        }
+        
+    }
+}
+
+.icon-hd:hover {
+    border-bottom: 3px solid $secondary;
+}
+
+.icon1-hd:hover {
+    border-bottom: 3px solid $primary;
+}
+
+.icon2-hd:hover {
+    border-bottom: 3px solid $secondary;
+}
+
+.icon3-hd:hover {
+    border-bottom: 3px solid $primary;
+}
+
+.icon1 {
+            border: 1px solid $black;
+            border-radius: 12px;
+            background-color: $white;
+            text-align: center;
+            padding: 3px;
+
+            &:hover {
+                background-color: $black;
+                color: $secondary;
+            }
+}
+
+.icon2 {
+            border: 1px solid $black;
+            border-radius: 12px;
+            background-color: $white;
+            text-align: center;
+            padding: 3px;
+
+            &:hover {
+                background-color: $black;
+                color: #eb0e0e;
+            }
+}

@@ -1,0 +1,108 @@
+@use '../custom' as *;
+
+.ourteam {
+    margin: 75px 0;
+}
+
+.bg-gray {
+    background-color: #f4f4f4;
+}
+
+h1-hd {
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: $secondary;
+    padding-bottom: 10px;
+}
+
+h1-hd:after {
+    content: '';
+    background-color: $primary;
+    display: block;
+    height: 3px;
+    width: 150px;
+    margin: 10px auto;
+} 
+
+.profile {
+    margin-top: 25px;
+}
+
+.profile .img-box {
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+
+.profile h2 {
+    font-size: 22-px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.profile h3 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.passId-size {
+    width: 80%;
+}
+
+.img-box:after {
+    content: '';
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.img-box ul {
+    margin: 0;
+    padding: 20px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    display: block;
+    left: 50%;
+    transform: translate(-50%);
+    opacity: 0;
+}
+
+.img-box ul li {
+    width: 30px;
+    height: 30px;
+    border: 2px solid $primary;
+    border-radius: 50%;
+    margin: 3px;
+    padding: 1px;
+    display: inline-block;
+}
+
+.img-box a {
+    color: $secondary;
+}
+
+.img-box:hover:after {
+    opacity: 1;
+}
+
+.img-box:hover ul {
+    opacity: 1;
+}
+
+.img-box a:hover li {
+    color: #fff;
+    border: 2px solid #007bff;
+}
+
+.img-box:after, .img-box ul, img-box ul li {
+    transition: all 0.5s ease-in-out 0s;
+}
+
+

@@ -1,0 +1,23 @@
+@use "../custom" as *;
+
+.ed {
+    border: 2px solid #000;
+    border-radius: 12px;
+    background-color: #E7E2E2;
+    
+}
+
+.bg-img {
+    background-image: url('../../Media/Images/Slider3.jpg');
+    width: 100%;
+    height: auto;
+    background-color: rgb(153, 214, 234);
+}
+
+.Donateinfo {
+    background-color: #8bcaf3;
+}
+
+.donateinfo-btn {
+    border-radius: 12px;
+}
