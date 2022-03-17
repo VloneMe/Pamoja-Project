@@ -10,7 +10,7 @@ function IntroSection() {
         <div className='overlay'>
              <Navbar />
 
-        <div className='container-fluid ps-5'>
+        <div className='container-fluid ps-5 banner'>
           <div class="pt-5">
              <div className='pt-5 text-white'>
             <h1>ARE YOU READY TO BE THE CHANGE <br/> THE WORLD NEED?</h1>

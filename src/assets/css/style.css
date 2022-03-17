@@ -11181,6 +11181,10 @@ section {
   background-color: black;
 }
 
+.banner {
+  margin-top: 3rem;
+}
+
 /********
 .flip-image {
     transform: scaleX(-1);
@@ -11218,6 +11222,26 @@ section {
 }
 .application .application-item a:hover {
   color: #000;
+}
+
+.footer-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.footer-items li {
+  list-style: none;
+  font-weight: 700;
+  padding: 12px 20px;
+  border-radius: 4px;
+}
+.footer-items li:hover {
+  background-color: rgba(233, 230, 230, 0.822);
+}
+.footer-items li:active {
+  background-color: rgba(233, 230, 230, 0.822);
 }
 
 .over-shadow:hover {
