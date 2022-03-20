@@ -5,8 +5,6 @@ import Footer from '../Sections/Footer';
 function Student() {
   return (
     <section>
-      {/* Navbar here */}
-      <Navbar/>
 
       <div className=''>
 
@@ -85,10 +83,6 @@ function Student() {
         </form>
       </div>
       </div>
-
-      {/* footer here */}
-       
-       <Footer/>
 
     </section>
   );
