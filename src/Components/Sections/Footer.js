@@ -6,10 +6,29 @@ function Footer() {
     <section className='bg-blue text-white'>
         <div className='container'>
           <ul className='footer-items'>
-            <li>Home</li>
-            <li>AboutUs</li>
-            <li>Faq</li>
-            <li>Services</li>
+            <li>
+              <a href='/'>
+              Home
+              </a>
+            </li>
+
+            <li>
+              <a href='/#about'>
+                  AboutUs
+              </a>
+            </li>
+
+            <li>
+              <a href='/#faq'>
+                  Faq
+              </a>
+            </li>
+
+            <li>
+              <a href='/#services'>
+                 Services
+              </a>
+            </li>
             {/* <li>
             <div className='w-10'>
                    <a className='btn btn-primary ms-lg-3 fw' href='/'>DONATE NOW <TiMortarBoard size='2em'/> </a>

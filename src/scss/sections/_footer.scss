@@ -1,5 +1,6 @@
 @use '../custom' as *;
 
+
 .footer-items{
     display: flex;
     justify-content: space-around;
@@ -8,20 +9,23 @@
 
 }
 
-.footer-items li{
+.footer-items li {
     list-style: none;
+}
+
+.footer-items li a {
     font-weight: 700;
     padding: 12px 20px;
     border-radius: 4px;
+    color: $white;
 
     &:hover{
         background-color: #7898;
-        color: $black;
-        border-bottom: 37px sold $primary;
+        color: $primary;
     }
 
     &:active{
-        background-color: $primary;
+        background-color: $white;
     }
 }
 

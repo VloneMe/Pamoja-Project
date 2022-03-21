@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Student from '../forms/Student';
 import {BsPeople} from 'react-icons/bs';
 import {BsFillPersonFill} from 'react-icons/bs'
 
@@ -17,18 +16,18 @@ function Application() {
 
          <div className='row py-4 text-center mb-md-3'>
              <div className='col-lg-6'>
-               <Link to="/student">
+               <a href="/guardian">
                 <span 
                   className='btn btn-outline-primary text-black'
                 >
                   Submit a child to pamoja 
                   <BsPeople />
                 </span>
-               </Link>
+               </a>
              </div>
 
              <div className='col-lg-6'>
-               <a href="/" className='btn btn-outline-primary text-black'>Are you a student Sign Up here <BsFillPersonFill /></a>
+               <a href="/student" className='btn btn-outline-primary text-black'>Are you a student Sign Up here <BsFillPersonFill /></a>
              </div>
          </div>
           </div>

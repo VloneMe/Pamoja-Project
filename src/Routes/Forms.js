@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import Student from './Student';
-import Guardian from './Guardian';
+import Student from '../Components/forms/Student';
+import Guardian from '../Components/forms/Guardian';
 
 function Forms() {
   return (

@@ -11135,6 +11135,15 @@ ul {
 }
 
 body {
+  font-weight: 500;
+  color: #000, 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
   font-family: "Roboto condensed", sans-serif;
   line-height: 1.8;
 }
@@ -11254,17 +11263,20 @@ section {
 
 .footer-items li {
   list-style: none;
+}
+
+.footer-items li a {
   font-weight: 700;
   padding: 12px 20px;
   border-radius: 4px;
+  color: #fff;
 }
-.footer-items li:hover {
+.footer-items li a:hover {
   background-color: #7898;
-  color: #000;
-  border-bottom: 37px sold #ffc107;
+  color: #ffc107;
 }
-.footer-items li:active {
-  background-color: #ffc107;
+.footer-items li a:active {
+  background-color: #fff;
 }
 
 .over-shadow:hover {

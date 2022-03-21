@@ -10,13 +10,16 @@ function Student() {
 
          {/* <!-------------------APPLICATION FORM----------------------> */}
 
-    <div class="container mb-lg-5 mt-3 col-lg-7 col-sm-10 bg-white align-self-center rounded">
+    <div class="container mb-lg-3 mt-3 col-lg-7 col-sm-10 bg-white align-self-center rounded">
 
         {/* <!----------Application Heading And Buttons-----------> */}
 
         <div class="">
-            <div class="m-5">
-                <h2 class="text-center fw-bold mt-4">Application Form</h2>
+            <div class="m-3">
+                <h2 class="text-center fw-bold mt-4">Student Application Form</h2>
+                <p class="text-center">
+                   Please kindly fill this form as a Student for application
+                </p>
             </div>
             
         </div>
@@ -71,6 +74,15 @@ function Student() {
                   <div class="mb-3 mt-3 shadow">
                     <input class="form-control" type="file" id="formFileMultiple" multiple required />
                   </div>
+              </div>
+
+              {/* <!-------------Switch to a new Form---------------> */}
+              <div className='mb-2 mt-2 text-center'>
+              <p>
+                For a guardian direct application form for a student <a href='/guardian'> 
+                  Click here 
+                </a> ?
+              </p>
               </div>
     
               {/* <!--------------Submit Button-----------------> */}
