@@ -4,8 +4,8 @@
     margin: 75px 0;
 }
 
-.bg-gray {
-    background-color: #f4f4f4;
+.bg-b-light{
+    background-color:  #b3d9ff;
 }
 
 h1-hd {
@@ -26,7 +26,11 @@ h1-hd:after {
 } 
 
 .profile {
-    margin-top: 25px;
+    margin-top: 1px;
+    background-color: $white;
+    width: 25vw;
+    padding: 20px;
+    border-radius: 12px;
 }
 
 .profile .img-box {
@@ -36,20 +40,25 @@ h1-hd:after {
 }
 
 .profile h2 {
-    font-size: 22-px;
+    font-size: 15-px;
     font-weight: bold;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .profile h3 {
     font-size: 15px;
     font-weight: bold;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .passId-size {
-    width: 80%;
+    width: 0;
 }
+
+// .img-box {
+//     width: 55%;
+//     align-self: center;
+// }
 
 .img-box:after {
     content: '';
@@ -103,6 +112,24 @@ h1-hd:after {
 
 .img-box:after, .img-box ul, img-box ul li {
     transition: all 0.5s ease-in-out 0s;
+}
+
+.card-bd {
+    border: 2px solid $primary;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+}
+
+.bg-blue {
+    background-color: #001a33;
+}
+
+.bg-blue-2 {
+    background-color: #f2f2f2;
+} 
+
+.bg-gray {
+    background-color:  #f2f2f2;
 }
 
 

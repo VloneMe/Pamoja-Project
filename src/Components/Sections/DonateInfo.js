@@ -11,17 +11,17 @@ function DonateInfo() {
           <p className='h3 fw-bold'>Spreading Education Has Never Been Easier! </p>
            </div>
 
-           <div className='d-lg-flex mt-3 justify-content-center justify-content-around'>
+           <div className='d-lg-flex mt-3 justify-content-around'>
                <div className='me-4'>
                    <h3 className='display-5 fs-5 fw-bold'>Just a tap</h3>
                    <a className='btn btn-primary donateinfo-btn'>DONATE NOW <TiMortarBoard size='2em'/></a>
                </div>
 
-               <div className=''>
+               <div className='row'>
                    <h3 className='display-5 fs-5 fw-bold'>Choose amount</h3>
                  <div>
                        
-                       <p className='ed fs-4 fw'> <BiDollar className='me-3'/> 0.5</p>
+                       <p className='ed fs-4 fw col-5'> <BiDollar className=''/> 0.5</p>
 
                    </div>
 

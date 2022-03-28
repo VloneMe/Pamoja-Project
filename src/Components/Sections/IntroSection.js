@@ -8,7 +8,7 @@ function IntroSection() {
   return (
     <section  className='bg-image bg-info'>
         <div className='overlay'>
-             <Navbar />
+             {/* <Navbar /> */}
 
         <div className='container-fluid ps-5 banner'>
           <div class="pt-5">

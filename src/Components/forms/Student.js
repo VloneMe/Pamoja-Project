@@ -1,8 +1,13 @@
 import React from 'react';
+import Navbar from '../Sections/Navbar';
+import Footer from '../Sections/Footer';
 
 function Student() {
   return (
-    <>
+    <section>
+      {/* Navbar here */}
+      <Navbar/>
+
       <div className=''>
 
          {/* <!-------------------APPLICATION FORM----------------------> */}
@@ -79,9 +84,13 @@ function Student() {
           </div>
         </form>
       </div>
-      
       </div>
-    </>
+
+      {/* footer here */}
+       
+       <Footer/>
+
+    </section>
   );
 }
 

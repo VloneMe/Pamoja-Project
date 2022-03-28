@@ -3,12 +3,13 @@ import {TiMortarBoard} from 'react-icons/ti';
 
 function Subscribe() {
   return (
-    <section className=''>
+    <section className='mt-5 mb-5'>
         <div className='container'>
+        <div className='container card card-body shadow'>
            <div className='justify-content-center'>
            <div className='text-center mt-3'>
                <p className='h3 fw-bold '>Not Ready To Donate?</p>
-               <p className='fw-bold'>Kindly subscribe to our community for updates and help us to provide an even better contribution.</p>
+               <p className='fw'>Kindly subscribe to our community for updates and help us to provide an even better contribution.</p>
            </div>
             
             <form action=''>
@@ -33,7 +34,10 @@ function Subscribe() {
             
         </div>
         </div>
+        </div>
     </section>
+
+     
   );
 }
 

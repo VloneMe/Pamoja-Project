@@ -2,8 +2,8 @@ import React from 'react'
 
 function Faq() {
   return (
-    <>
-      <div className='container'>
+    <section className='h-100vh'>
+       <div className='container'>
          <div className='accordion mb-5 mt-5 shadow text-dark' id="accordionExample">
           <h3 className='display-6 fs-3 text-center py-3 fw-bold'>Frequently Asked Questions? (FAQ)</h3>
 
@@ -15,7 +15,7 @@ function Faq() {
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, est iure in error neque, voluptatem, aliquam dolor quia doloribus accusamus iusto provident hic deleniti expedita nisi ipsum quis unde assumenda.
+                This is an intiative which deals with solving all the challanges and inequalities in the education system  in Tanzania.
             </div>
           </div>
          </div>
@@ -28,7 +28,7 @@ function Faq() {
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, est iure in error neque, voluptatem, aliquam dolor quia doloribus accusamus iusto provident hic deleniti expedita nisi ipsum quis unde assumenda.
+                Pamoja initiative is for the kids who are of school due to different sucumstances and take the back to school.
             </div>
           </div>
          </div>
@@ -41,7 +41,7 @@ function Faq() {
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, est iure in error neque, voluptatem, aliquam dolor quia doloribus accusamus iusto provident hic deleniti expedita nisi ipsum quis unde assumenda.
+                Pamoja initiative provides basic show needs that are required for the student to be at school.
             </div>
           </div>
          </div>
@@ -54,7 +54,7 @@ function Faq() {
             </h2>
             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, est iure in error neque, voluptatem, aliquam dolor quia doloribus accusamus iusto provident hic deleniti expedita nisi ipsum quis unde assumenda.
+                Pamoja initiatives is found in Dar es salaam city in Tanzania.
             </div>
           </div>
          </div> 
@@ -67,7 +67,7 @@ function Faq() {
             </h2>
             <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, est iure in error neque, voluptatem, aliquam dolor quia doloribus accusamus iusto provident hic deleniti expedita nisi ipsum quis unde assumenda.
+                Pamoja initiatives impact is to support childrens to got to school and get better education in a good wealth.
             </div>
           </div>
          </div>
@@ -80,14 +80,14 @@ function Faq() {
             </h2>
             <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, est iure in error neque, voluptatem, aliquam dolor quia doloribus accusamus iusto provident hic deleniti expedita nisi ipsum quis unde assumenda.
+                Pamoja initiatives goals is to make sure the world lives the highly educated people who will be able to stand on their own And sae those who are in need.
             </div>
           </div>
          </div>
 
       </div>
       </div>
-    </>
+    </section>
   );
 }
 

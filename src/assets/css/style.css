@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,700;0,800;0,900;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,700&display=swap");
 /*Navbar Section*************/
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
@@ -11125,9 +11126,26 @@ textarea.form-control-lg {
   color: #fff;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: square;
+}
+
 body {
   font-family: "Roboto condensed", sans-serif;
   line-height: 1.8;
+}
+
+.nav-logo {
+  font-family: "Roboto", sans-serif;
+}
+
+.nav-hv {
+  height: 12vh;
+  font-size: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -11173,7 +11191,7 @@ section {
   background: url("../../Media/Images/Slider2-1.jpg");
   background-size: cover;
   opacity: 0, 6;
-  height: 100vh;
+  height: 90vh;
   width: 100%;
 }
 
@@ -11200,7 +11218,9 @@ section {
 }
 
 .application {
-  background-color: rgba(186, 234, 236, 0.5);
+  height: 50vh;
+  align-items: center;
+  justify-content: center;
 }
 .application .application-item {
   background-color: #000;
@@ -11211,6 +11231,7 @@ section {
   justify-items: center;
   padding-top: 5px;
   padding-bottom: 5px;
+  margin-top: 50px;
 }
 .application .application-item:hover {
   background-color: #ffc107;
@@ -11238,10 +11259,12 @@ section {
   border-radius: 4px;
 }
 .footer-items li:hover {
-  background-color: rgba(233, 230, 230, 0.822);
+  background-color: #7898;
+  color: #000;
+  border-bottom: 37px sold #ffc107;
 }
 .footer-items li:active {
-  background-color: rgba(233, 230, 230, 0.822);
+  background-color: #ffc107;
 }
 
 .over-shadow:hover {
@@ -11253,6 +11276,7 @@ section {
   border: 2px solid #000;
   border-radius: 12px;
   background-color: #E7E2E2;
+  width: 503px;
 }
 
 .bg-img {
@@ -11347,8 +11371,8 @@ section {
   margin: 75px 0;
 }
 
-.bg-gray {
-  background-color: #f4f4f4;
+.bg-b-light {
+  background-color: #b3d9ff;
 }
 
 h1-hd {
@@ -11369,7 +11393,11 @@ h1-hd:after {
 }
 
 .profile {
-  margin-top: 25px;
+  margin-top: 1px;
+  background-color: #fff;
+  width: 25vw;
+  padding: 20px;
+  border-radius: 12px;
 }
 
 .profile .img-box {
@@ -11379,19 +11407,19 @@ h1-hd:after {
 }
 
 .profile h2 {
-  font-size: 22-px;
+  font-size: 15-px;
   font-weight: bold;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .profile h3 {
   font-size: 15px;
   font-weight: bold;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .passId-size {
-  width: 80%;
+  width: 0;
 }
 
 .img-box:after {
@@ -11446,6 +11474,24 @@ h1-hd:after {
 
 .img-box:after, .img-box ul, img-box ul li {
   transition: all 0.5s ease-in-out 0s;
+}
+
+.card-bd {
+  border: 2px solid #ffc107;
+  border-radius: 10px;
+  background-color: #f4f4f4;
+}
+
+.bg-blue {
+  background-color: #001a33;
+}
+
+.bg-blue-2 {
+  background-color: #f2f2f2;
+}
+
+.bg-gray {
+  background-color: #f2f2f2;
 }
 
 /*# sourceMappingURL=style.css.map */

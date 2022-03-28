@@ -1,7 +1,10 @@
 @use '../custom' as *;
 
 .application {
-    background-color: rgba(186, 234, 236, 0.5);
+    // background-color:  #b2d9ec;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
 
     .application-item {
         background-color: #000;
@@ -12,6 +15,7 @@
         justify-items: center;
         padding-top: 5px;
         padding-bottom: 5px;
+        margin-top: 50px;
 
         &:hover {
             background-color: $primary;
