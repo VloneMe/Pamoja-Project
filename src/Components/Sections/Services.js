@@ -2,7 +2,7 @@ import React from 'react'
 
 function Services() {
   return (
-    <section className=''>
+    <section id='service' className=''>
        <div className='container'>
            <div className='mb-5 mt-5 py-5 fs-6'>
            <div className='text-center py-4'>

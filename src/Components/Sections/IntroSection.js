@@ -6,7 +6,7 @@ import {TiMortarBoard} from 'react-icons/ti';
 
 function IntroSection() {
   return (
-    <section  className='bg-image bg-info'>
+    <section id='introsection'  className='bg-image bg-info'>
         <div className='overlay'>
              {/* <Navbar /> */}
 

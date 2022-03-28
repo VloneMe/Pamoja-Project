@@ -2,7 +2,7 @@ import React from 'react'
 
 function Faq() {
   return (
-    <section className='h-100vh'>
+    <section id='faq' className='h-100vh'>
        <div className='container'>
          <div className='accordion mb-5 mt-5 shadow text-dark' id="accordionExample">
           <h3 className='display-6 fs-3 text-center py-3 fw-bold'>Frequently Asked Questions? (FAQ)</h3>

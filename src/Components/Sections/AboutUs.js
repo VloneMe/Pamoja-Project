@@ -4,7 +4,7 @@ import OurFocus from './OurFocus';
 
 function AboutUs() {
   return (
-    <div className='container'>
+    <div id='about-us' className='container'>
         <div className=''>
             <div className=' '>
                 <div className='col-lg-10 p-4 text-center mt-4 bg-white rounded border border-1 mx-auto over-shadow icon-hd'>
